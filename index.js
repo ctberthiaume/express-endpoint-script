@@ -33,7 +33,7 @@ app.post(endpointPath, (req, res) => {
     validator.validate(body, (err, message) => {
       if (err) {
         console.log('SNS message body validation failed');
-        console.log(err);
+        console.log(err.message);
       } else {
         console.log('SNS message body validation succeeded');
         console.log(`TopicArn:  ${body.TopicArn}`);
