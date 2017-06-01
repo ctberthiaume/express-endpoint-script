@@ -1,6 +1,6 @@
 {
   "name": "express-endpoint-script",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Express skeleton code to invoke a script at an endpoint.",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "sns-validator": "^0.3.0"
   }
 }
