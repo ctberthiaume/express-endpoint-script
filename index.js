@@ -54,7 +54,7 @@ app.post(endpointPath, (req, res) => {
             }
           });
         } else if (body.Type === 'Notification') {
-          console.log(`Message: ${body.Message}`);
+          //console.log(`Message: ${body.Message}`);
           child.execFile(
             script,
             [
